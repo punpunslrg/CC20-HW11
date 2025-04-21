@@ -314,6 +314,31 @@ footer {
   padding-bottom: 2rem;
 }
 
+/* ---------------------WORK01--------------------- */
+
+
+.feature-work-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-work-pic img {
+  width: 100%;
+  border-radius: 20px;
+  margin-block: 1rem;
+}
+
+.feature-work-section span {
+  background-color: #0043a1;
+  padding: 4px 12px;
+  border-radius: 900px;
+  color: white;
+}
+
+.feature-work-section .red {
+  color: #9e9e9e;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1000px) {
